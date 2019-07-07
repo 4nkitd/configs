@@ -1,0 +1,31 @@
+{
+  "window.title": "${rootPath}${separator}VS Code -> Ankit Yadav",
+  "window.menuBarVisibility": "toggle",
+  //
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.defaultFormatter": null,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  //
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "php.validate.executablePath": "E:/xampp/php/php.exe",
+  //
+  "phpfmt.php_bin": "E:/xampp/php/php.exe",
+  "php.validate.enable": true,
+  "php.validate.run": "onSave",
+  //
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai",
+  "workbench.activityBar.visible": true,
+  "workbench.settings.editor": "json",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#4c8bf5",
+    "statusBar.noFolderBackground": "#4c8bf5",
+    "statusBar.debuggingBackground": "#4c8bf5",
+    "titleBar.activeBackground": "#4c8bf5",
+    "titleBar.activeForeground": "#ffffff",
+    "activityBar.background": "#4c8bf5",
+    "activityBar.inactiveForeground": "#fffefe",
+    "activityBar.foreground": "#ffffff"
+  }
+}
