@@ -6,6 +6,8 @@
   "editor.defaultFormatter": null,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code Light",
+  "editor.fontLigatures": true,
   //
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "php.validate.executablePath": "E:/xampp/php/php.exe",
@@ -15,17 +17,40 @@
   "php.validate.run": "onSave",
   //
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "SynthWave '84",
   "workbench.activityBar.visible": true,
   "workbench.settings.editor": "json",
   "workbench.colorCustomizations": {
     "statusBar.background": "#4c8bf5",
     "statusBar.noFolderBackground": "#4c8bf5",
     "statusBar.debuggingBackground": "#4c8bf5",
+    "statusBarItem.remoteBackground": "#035af0",
+    //
     "titleBar.activeBackground": "#4c8bf5",
     "titleBar.activeForeground": "#ffffff",
+    //
     "activityBar.background": "#4c8bf5",
     "activityBar.inactiveForeground": "#fffefe",
     "activityBar.foreground": "#ffffff"
+  },
+  "cSpell.enabledLanguageIds": [
+    "css",
+    "git-commit",
+    "html",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "markdown",
+    "php",
+    "plaintext",
+    "python",
+    "sql",
+    "text"
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
   }
 }
