@@ -1,9 +1,10 @@
 {
+  "editor.snippetSuggestions": "top",
+  //
   "window.title": "${rootPath}${separator}VS Code -> Ankit Yadav",
-  "window.menuBarVisibility": "toggle",
+  // "window.menuBarVisibility": "toggle",
   //
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.defaultFormatter": null,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.fontFamily": "Fira Code Light",
@@ -11,46 +12,38 @@
   //
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "php.validate.executablePath": "E:/xampp/php/php.exe",
-  //
-  "phpfmt.php_bin": "E:/xampp/php/php.exe",
   "php.validate.enable": true,
   "php.validate.run": "onSave",
   //
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "SynthWave '84",
+  "workbench.colorTheme": "Monokai",
   "workbench.activityBar.visible": true,
   "workbench.settings.editor": "json",
   "workbench.colorCustomizations": {
+    "statusBar.": "#000",
     "statusBar.background": "#4c8bf5",
     "statusBar.noFolderBackground": "#4c8bf5",
     "statusBar.debuggingBackground": "#4c8bf5",
     "statusBarItem.remoteBackground": "#035af0",
     //
-    "titleBar.activeBackground": "#4c8bf5",
+    "titleBar.activeBackground": "#4285F4",
     "titleBar.activeForeground": "#ffffff",
     //
     "activityBar.background": "#4c8bf5",
     "activityBar.inactiveForeground": "#fffefe",
     "activityBar.foreground": "#ffffff"
   },
-  "cSpell.enabledLanguageIds": [
-    "css",
-    "git-commit",
-    "html",
-    "java",
-    "javascript",
-    "javascriptreact",
-    "json",
-    "jsonc",
-    "markdown",
-    "php",
-    "plaintext",
-    "python",
-    "sql",
-    "text"
-  ],
   "workbench.startupEditor": "newUntitledFile",
-  "[php]": {
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
-  }
+  "extensions.ignoreRecommendations": true,
+  "git.autorefresh": false,
+  "explorer.confirmDelete": false,
+  "[javascript,php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorBlinking": "smooth",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "workbench.sideBar.location": "left",
+  "workbench.tips.enabled": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false
 }
