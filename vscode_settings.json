@@ -1,7 +1,7 @@
 {
   "editor.snippetSuggestions": "top",
   //
-  "window.title": "${rootPath}${separator}VS Code -> Ankit Yadav",
+  "window.title": "${rootPath}${separator}VS Code -> Your Name",
   // "window.menuBarVisibility": "toggle",
   //
   "editor.multiCursorModifier": "ctrlCmd",
