@@ -1,2 +1,2 @@
-# settings
-settings
+# configs
+various applications config file example
